@@ -358,8 +358,7 @@ footer {
   justify-content: space-between;
   padding: 0 20px;
   margin-bottom: 20px;
-  flex-wrap: wrap; /* Allow wrapping on small screens */
-}
+  flex-wrap: wrap; 
 
 .footer-text, .footer-contact, .footer-social {
   width: 30%;
@@ -413,16 +412,15 @@ footer {
   text-decoration: underline;
 }
 
-/* Mobile-Friendly Styles */
 @media (max-width: 768px) {
   .footer-content {
-    flex-direction: column; /* Stack the sections vertically */
-    align-items: center; /* Center align content */
+    flex-direction: column; 
+    align-items: center; 
   }
 
   .footer-text, .footer-contact, .footer-social {
-    width: 100%; /* Make sections full width */
-    text-align: center; /* Center align text */
+    width: 100%; 
+    text-align: center; 
   }
 
   .footer-text h3 {
@@ -431,12 +429,12 @@ footer {
 
   .footer-text p, .footer-contact p, .footer-social a {
     font-size: 14px;
-    margin-bottom: 10px; /* Add some spacing between items */
+    margin-bottom: 10px;
   }
 
   .footer-social a {
     font-size: 16px;
-    padding: 10px; /* Make the social media links easier to tap */
+    padding: 10px;
   }
 
   .footer-bottom {
